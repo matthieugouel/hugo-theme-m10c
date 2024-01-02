@@ -13,10 +13,11 @@
 
 .posts-list-item-description {
   display: flex;
-  align-items: center;
+  flex-direction: column;
+  align-items: left;
   font-size: 0.8em;
 
-  > .icon {
+  >.icon {
     margin-right: 0.4em;
   }
 }
